@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-full overflow-hidden border-2 border-[#F5C800] shadow-md flex-shrink-0">
+            <div className="w-11 h-11 rounded-full overflow-hidden border-2 border-white/30 shadow-md flex-shrink-0">
               <Image src="/logo.jpg" alt="WCPF Logo" width={44} height={44} className="w-full h-full object-cover" priority />
             </div>
             <div className="hidden sm:block">
